@@ -1,0 +1,36 @@
+test_invalid_selection (test_launcher.Launcher.test_invalid_selection) ... ok
+test_missing_board_install_ok (test_launcher.Launcher.test_missing_board_install_ok) ... ok
+test_multi_preserve_selected (test_launcher.Launcher.test_multi_preserve_selected) ... ok
+test_multiple_prompt (test_launcher.Launcher.test_multiple_prompt) ... ok
+test_unique_esp (test_launcher.Launcher.test_unique_esp) ... COM3 test test
+COM4 test test
+No unique ESP32 detected. Start.cmd will select the port when connected.
+COM3 test test
+COM4 test test
+ESP32 USB Serial/JTAG: COM3
+ok
+test_bridge_snapshot (test_project.Project.test_bridge_snapshot) ... ok
+test_extended_mapping (test_project.Project.test_extended_mapping) ... ok
+test_log_retention (test_project.Project.test_log_retention) ... ok
+test_mapping (test_project.Project.test_mapping) ... ok
+test_protocol (test_project.Project.test_protocol) ... ok
+test_protocol_schema (test_project.Project.test_protocol_schema) ... ok
+test_stage (test_project.Project.test_stage) ... ok
+test_invalid_flash_port (test_release.Release.test_invalid_flash_port) ... ok
+test_probe_ack (test_release.Release.test_probe_ack) ... ok
+test_serial_reenumeration (test_release.Release.test_serial_reenumeration) ... ok
+test_stage_failure_is_retryable (test_release.Release.test_stage_failure_is_retryable) ... ok
+test_unattended_no_wrong_board (test_release.Release.test_unattended_no_wrong_board) ... ok
+test_valid_zero_fan (test_release.Release.test_valid_zero_fan) ... ok
+test_version (test_release.Release.test_version) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.014s
+
+OK
+Sketch: /tmp/tmpcmwny5ms/build/PCMonitorV2/PCMonitorV2.ino
+Official libraries: /tmp/tmpcmwny5ms/build/libraries
+
+Host C++ parser round-trip: PASS (not ESP32 compilation).
+Actual sensor capture: 363 rows; 29/29 configured sensor IDs non-null.
+Vendor: 484 files byte-identical to supplied LibreHardwareMonitor-master.zip.

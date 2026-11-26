@@ -1,0 +1,14 @@
+.venv/
+runtime.local.json
+logs/
+build/
+sensor_inventory.json
+__pycache__/
+
+build_lhm/
+logs/
+.runtime/
+
+.tools/
+.stage-*/
+pawnio-installed-by-project.txt
